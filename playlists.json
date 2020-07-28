@@ -1,1 +1,96 @@
-{"Persona": [{"Playlist": "OST;Persona;Persona 3 Burn My Dread - Reincarnition;COMPLETE", "Nombre": "Persona 3 Burn My Dread - Reincarnition", "Tipo": "COMPLETE", "Duracion": "01:01:34"}, {"Playlist": "OST;Persona;Persona 3 FES;Best", "Nombre": "Persona 3 FES", "Tipo": "Best", "Duracion": "02:43:04"}, {"Playlist": "OST;Persona;Persona 5;BEST", "Nombre": "Persona 5", "Tipo": "BEST", "Duracion": "00:56:17"}], "Hatsune Miku Project Diva": [{"Playlist": "OST;Hatsune Miku Project Diva;Hatsune Miku Project Diva F 2nd;COMPLETE", "Nombre": "Hatsune Miku Project Diva F 2nd", "Tipo": "COMPLETE", "Duracion": "02:56:11"}], "Splatoon": [{"Playlist": "OST;Splatoon;Splatoon 2;BEST", "Nombre": "Splatoon 2", "Tipo": "BEST", "Duracion": "01:30:38"}], "Donkey Kong Country": [{"Playlist": "OST;Donkey Kong Country;Donkey Kong Country;COMPLETE", "Nombre": "Donkey Kong Country", "Tipo": "COMPLETE", "Duracion": "01:03:44"}, {"Playlist": "OST;Donkey Kong Country;Donkey Kong Country 2: Diddy's Kong Quest;COMPLETE", "Nombre": "Donkey Kong Country 2: Diddy's Kong Quest", "Tipo": "COMPLETE", "Duracion": "01:12:38"}], "Kirby": [{"Playlist": "OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE", "Nombre": "Kirby Kightmare In Dreamland", "Tipo": "COMPLETE", "Duracion": "00:47:54"}, {"Playlist": "OST;Kirby;Kirby Squeak Squad;COMPLETE", "Nombre": "Kirby Squeak Squad", "Tipo": "COMPLETE", "Duracion": "00:57:03"}, {"Playlist": "OST;Kirby; Kirby & The Amazing Mirror;BEST", "Nombre": " Kirby & The Amazing Mirror", "Tipo": "BEST", "Duracion": "00:32:35"}], "Ace Attorney": [{"Playlist": "OST;Ace Attorney;Ace Attorney Phoenix Wright;COMPLETE", "Nombre": "Ace Attorney Phoenix Wright", "Tipo": "COMPLETE", "Duracion": "00:57:40"}], "Bayonetta": [{"Playlist": "OST;Bayonetta;Bayonetta;BEST", "Nombre": "Bayonetta", "Tipo": "BEST", "Duracion": "01:54:41"}], "Mega Man": [{"Playlist": "OST;Mega Man;Mega Man 2;COMPLETE", "Nombre": "Mega Man 2", "Tipo": "COMPLETE", "Duracion": "00:20:31"}]}
+{
+    "Persona": [
+        {
+            "Playlist": "OST;Persona;Persona 3 Burn My Dread - Reincarnition;COMPLETE",
+            "Nombre": "Persona 3 Burn My Dread - Reincarnition",
+            "Tipo": "COMPLETE",
+            "Duracion": "01:01:34"
+        },
+        {
+            "Playlist": "OST;Persona;Persona 3 FES;Best",
+            "Nombre": "Persona 3 FES",
+            "Tipo": "Best",
+            "Duracion": "02:43:04"
+        },
+        {
+            "Playlist": "OST;Persona;Persona 5;BEST",
+            "Nombre": "Persona 5",
+            "Tipo": "BEST",
+            "Duracion": "00:56:17"
+        }
+    ],
+    "Hatsune Miku Project Diva": [
+        {
+            "Playlist": "OST;Hatsune Miku Project Diva;Hatsune Miku Project Diva F 2nd;COMPLETE",
+            "Nombre": "Hatsune Miku Project Diva F 2nd",
+            "Tipo": "COMPLETE",
+            "Duracion": "02:56:11"
+        }
+    ],
+    "Splatoon": [
+        {
+            "Playlist": "OST;Splatoon;Splatoon 2;BEST",
+            "Nombre": "Splatoon 2",
+            "Tipo": "BEST",
+            "Duracion": "01:30:38"
+        }
+    ],
+    "Donkey Kong Country": [
+        {
+            "Playlist": "OST;Donkey Kong Country;Donkey Kong Country;COMPLETE",
+            "Nombre": "Donkey Kong Country",
+            "Tipo": "COMPLETE",
+            "Duracion": "01:03:44"
+        },
+        {
+            "Playlist": "OST;Donkey Kong Country;Donkey Kong Country 2: Diddy's Kong Quest;COMPLETE",
+            "Nombre": "Donkey Kong Country 2: Diddy's Kong Quest",
+            "Tipo": "COMPLETE",
+            "Duracion": "01:12:38"
+        }
+    ],
+    "Kirby": [
+        {
+            "Playlist": "OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE",
+            "Nombre": "Kirby Kightmare In Dreamland",
+            "Tipo": "COMPLETE",
+            "Duracion": "00:47:54"
+        },
+        {
+            "Playlist": "OST;Kirby;Kirby Squeak Squad;COMPLETE",
+            "Nombre": "Kirby Squeak Squad",
+            "Tipo": "COMPLETE",
+            "Duracion": "00:57:03"
+        },
+        {
+            "Playlist": "OST;Kirby; Kirby & The Amazing Mirror;BEST",
+            "Nombre": " Kirby & The Amazing Mirror",
+            "Tipo": "BEST",
+            "Duracion": "00:32:35"
+        }
+    ],
+    "Ace Attorney": [
+        {
+            "Playlist": "OST;Ace Attorney;Ace Attorney Phoenix Wright;COMPLETE",
+            "Nombre": "Ace Attorney Phoenix Wright",
+            "Tipo": "COMPLETE",
+            "Duracion": "00:57:40"
+        }
+    ],
+    "Bayonetta": [
+        {
+            "Playlist": "OST;Bayonetta;Bayonetta;BEST",
+            "Nombre": "Bayonetta",
+            "Tipo": "BEST",
+            "Duracion": "01:54:41"
+        }
+    ],
+    "Mega Man": [
+        {
+            "Playlist": "OST;Mega Man;Mega Man 2;COMPLETE",
+            "Nombre": "Mega Man 2",
+            "Tipo": "COMPLETE",
+            "Duracion": "00:20:31"
+        }
+    ]
+}

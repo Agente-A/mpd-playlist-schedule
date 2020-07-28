@@ -1,12 +1,12 @@
 {
     "Weekdays" : [
         {
-            "hora"      :   18,
-            "minuto"    :   35
+            "hora"      :   9,
+            "minuto"    :   0
         },
         {
-            "hora"      :   18,
-            "minuto"    :   40
+            "hora"      :   15,
+            "minuto"    :   0
         }
     ],
     "Holidays" : [

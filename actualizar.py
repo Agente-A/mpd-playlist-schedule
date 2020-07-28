@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from mpd import MPDClient
 from credentials import *
 from time import sleep
@@ -10,13 +11,14 @@ def setPlaylist(mpd, playlist):
     mpd.load(playlist)
     mpd.play()
     mpd.disconnect()
-    print("Playlist: " + playlist + "En cola")
+    print("Playlist: " + playlist + " En cola")
 
 def setRandom(mpd):
     mpd.connect(mpdServer,mpdPort)
+    mpd.clear()
     mpd.random(1)
     mpd.add('VGM')
-    mpd.pause(0)
+    mpd.play()
     mpd.disconnect()
     print("Random en cola")
 

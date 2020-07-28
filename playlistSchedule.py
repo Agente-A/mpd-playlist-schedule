@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from mpd import MPDClient
 from credentials import *
 import re, json, datetime, holidays, random, time
@@ -35,13 +36,6 @@ for pl in playlists:
         aux['Duracion'] = str(duration)
         sagas[s[1]].append(aux)
 
-# Ver lo que tengo
-# for saga, playlists in sagas.items():
-#     print('saga: ' + saga)
-#     for playlist in playlists:
-#         print("\tjuego: " + playlist['Playlist'])
-#         print("\t\tTipo: " + playlist['Tipo'])
-#         print("\t\tDuración: " + playlist['Duracion'])
 mpd.disconnect()
 
 with open('playlists.json', 'w') as file:
@@ -51,9 +45,6 @@ cl_holidays = holidays.Chile()
 
 with open('horario.json', 'r') as file:
     horario = json.load(file)
-
-
-# Esto no está funcionando, hacer una lista con los nombres de los días y a ver what wea
 
 week = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
 
@@ -92,7 +83,5 @@ for i in range(7):
             
         programacion[week[i]] = aux.copy()
         
-            
-
 with open('programacion.json', 'w') as file:
     json.dump(programacion, file, indent=3)

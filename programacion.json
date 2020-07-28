@@ -1,11 +1,27 @@
 {
    "Lunes": [
       {
+         "Playlist": "OST;Mega Man;Mega Man 2;COMPLETE",
+         "Nombre": "Mega Man 2",
+         "Tipo": "COMPLETE",
+         "Duracion": "00:20:31",
+         "horario": "18:35:00"
+      },
+      {
+         "Playlist": "OST;Persona;Persona 5;BEST",
+         "Nombre": "Persona 5",
+         "Tipo": "BEST",
+         "Duracion": "00:56:17",
+         "horario": "18:40:00"
+      }
+   ],
+   "Martes": [
+      {
          "Playlist": "OST;Donkey Kong Country;Donkey Kong Country;COMPLETE",
          "Nombre": "Donkey Kong Country",
          "Tipo": "COMPLETE",
          "Duracion": "01:03:44",
-         "horario": "18:36:00"
+         "horario": "18:35:00"
       },
       {
          "Playlist": "OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE",
@@ -15,12 +31,28 @@
          "horario": "18:40:00"
       }
    ],
-   "Martes": [
+   "Miercoles": [
       {
-         "Playlist": "OST;Persona;Persona 3 Burn My Dread - Reincarnition;COMPLETE",
-         "Nombre": "Persona 3 Burn My Dread - Reincarnition",
+         "Playlist": "OST;Splatoon;Splatoon 2;BEST",
+         "Nombre": "Splatoon 2",
+         "Tipo": "BEST",
+         "Duracion": "01:30:38",
+         "horario": "18:35:00"
+      },
+      {
+         "Playlist": "OST;Hatsune Miku Project Diva;Hatsune Miku Project Diva F 2nd;COMPLETE",
+         "Nombre": "Hatsune Miku Project Diva F 2nd",
          "Tipo": "COMPLETE",
-         "Duracion": "01:01:34",
+         "Duracion": "02:56:11",
+         "horario": "18:40:00"
+      }
+   ],
+   "Jueves": [
+      {
+         "Playlist": "OST;Splatoon;Splatoon 2;BEST",
+         "Nombre": "Splatoon 2",
+         "Tipo": "BEST",
+         "Duracion": "01:30:38",
          "horario": "18:35:00"
       },
       {
@@ -31,12 +63,12 @@
          "horario": "18:40:00"
       }
    ],
-   "Miercoles": [
+   "Viernes": [
       {
-         "Playlist": "OST;Persona;Persona 3 FES;Best",
-         "Nombre": "Persona 3 FES",
-         "Tipo": "Best",
-         "Duracion": "02:43:04",
+         "Playlist": "OST;Bayonetta;Bayonetta;BEST",
+         "Nombre": "Bayonetta",
+         "Tipo": "BEST",
+         "Duracion": "01:54:41",
          "horario": "18:35:00"
       },
       {
@@ -47,55 +79,7 @@
          "horario": "18:40:00"
       }
    ],
-   "Jueves": [
-      {
-         "Playlist": "OST;Persona;Persona 3 Burn My Dread - Reincarnition;COMPLETE",
-         "Nombre": "Persona 3 Burn My Dread - Reincarnition",
-         "Tipo": "COMPLETE",
-         "Duracion": "01:01:34",
-         "horario": "18:35:00"
-      },
-      {
-         "Playlist": "OST;Donkey Kong Country;Donkey Kong Country 2: Diddy's Kong Quest;COMPLETE",
-         "Nombre": "Donkey Kong Country 2: Diddy's Kong Quest",
-         "Tipo": "COMPLETE",
-         "Duracion": "01:12:38",
-         "horario": "18:40:00"
-      }
-   ],
-   "Viernes": [
-      {
-         "Playlist": "OST;Hatsune Miku Project Diva;Hatsune Miku Project Diva F 2nd;COMPLETE",
-         "Nombre": "Hatsune Miku Project Diva F 2nd",
-         "Tipo": "COMPLETE",
-         "Duracion": "02:56:11",
-         "horario": "18:35:00"
-      },
-      {
-         "Playlist": "OST;Persona;Persona 3 FES;Best",
-         "Nombre": "Persona 3 FES",
-         "Tipo": "Best",
-         "Duracion": "02:43:04",
-         "horario": "18:40:00"
-      }
-   ],
    "Sabado": [
-      {
-         "Playlist": "OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE",
-         "Nombre": "Kirby Kightmare In Dreamland",
-         "Tipo": "COMPLETE",
-         "Duracion": "00:47:54",
-         "horario": "09:00:00"
-      },
-      {
-         "Playlist": "OST;Kirby;Kirby Squeak Squad;COMPLETE",
-         "Nombre": "Kirby Squeak Squad",
-         "Tipo": "COMPLETE",
-         "Duracion": "00:57:03",
-         "horario": "15:00:00"
-      }
-   ],
-   "Domingo": [
       {
          "Playlist": "OST;Donkey Kong Country;Donkey Kong Country;COMPLETE",
          "Nombre": "Donkey Kong Country",
@@ -108,6 +92,22 @@
          "Nombre": "Donkey Kong Country 2: Diddy's Kong Quest",
          "Tipo": "COMPLETE",
          "Duracion": "01:12:38",
+         "horario": "15:00:00"
+      }
+   ],
+   "Domingo": [
+      {
+         "Playlist": "OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE",
+         "Nombre": "Kirby Kightmare In Dreamland",
+         "Tipo": "COMPLETE",
+         "Duracion": "00:47:54",
+         "horario": "09:00:00"
+      },
+      {
+         "Playlist": "OST;Kirby; Kirby & The Amazing Mirror;BEST",
+         "Nombre": " Kirby & The Amazing Mirror",
+         "Tipo": "BEST",
+         "Duracion": "00:32:35",
          "horario": "15:00:00"
       }
    ]
