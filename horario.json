@@ -7,6 +7,10 @@
         {
             "hora"      :   15,
             "minuto"    :   0
+        },
+        {
+            "hora"      :   17,
+            "minuto"    :   30
         }
     ],
     "Holidays" : [

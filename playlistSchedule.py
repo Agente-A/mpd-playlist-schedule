@@ -51,7 +51,7 @@ week = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'
 programacion = {}
 
 for i in range(7):
-    day = datetime.date(2020,7,27)
+    day = datetime.date.today()
     day += datetime.timedelta(days=i)
     if day not in cl_holidays and i <= 4:
         # Día normal, una playlist por horario

@@ -1,8 +1,9 @@
-#!/usr/bin/env python3
 from mpd import MPDClient
 from credentials import *
 from time import sleep
 import schedule, datetime, json
+
+log = '/home/pi/scripts/radio/act_log.txt'
 
 def setPlaylist(mpd, playlist):
     mpd.connect(mpdServer,mpdPort)
@@ -11,7 +12,9 @@ def setPlaylist(mpd, playlist):
     mpd.load(playlist)
     mpd.play()
     mpd.disconnect()
-    print("Playlist: " + playlist + " En cola")
+    f = open(log, "a")
+    f.write("Playlist: " + playlist + " En cola\n")
+    f.close()
 
 def setRandom(mpd):
     mpd.connect(mpdServer,mpdPort)
@@ -20,10 +23,12 @@ def setRandom(mpd):
     mpd.add('VGM')
     mpd.play()
     mpd.disconnect()
-    print("Random en cola")
+    f = open(log, "a")
+    f.write("Random en cola\n")
+    f.close()
 
 def loadDay():
-    schedule.clear()
+    schedule.clear('playlist')
     day = datetime.date.today()
     with open('programacion.json', 'r') as file:
         prog = json.load(file)
@@ -36,16 +41,20 @@ def loadDay():
         duracion = datetime.datetime.strptime(pl['Duracion'], "%H:%M:%S")
         fin = horario + datetime.timedelta(hours = int(duracion.strftime("%H")), minutes = int(duracion.strftime("%M")), seconds = int(duracion.strftime("%S")))
 
-        schedule.every().day.at(horario.strftime("%H:%M:%S")).do(setPlaylist, mpd, pl['Playlist'])
-        schedule.every().day.at(fin.strftime("%H:%M:%S")).do(setRandom, mpd)
+        schedule.every().day.at(horario.strftime("%H:%M:%S")).do(setPlaylist, mpd, pl['Playlist']).tag('playlist')
+        schedule.every().day.at(fin.strftime("%H:%M:%S")).do(setRandom, mpd).tag('playlist')
+
+    f = open(log, "a")
+    f.write("\n ** "+ datetime.datetime.now().strftime("%Y-%m-%d") + " ** \nJobs:\n")
+    for x in schedule.jobs:
+        f.write(str(x) + "\n")
+        
+    f.close()
 
 mpd = MPDClient()
 
 loadDay()
 schedule.every().day.at('05:00').do(loadDay)
-
-for x in schedule.jobs:
-    print(x)
 
 while True:
     schedule.run_pending()
