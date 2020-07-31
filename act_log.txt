@@ -80,3 +80,28 @@ Playlist: OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE En cola
 Random en cola
 Playlist: OST;Donkey Kong Country;Donkey Kong Country 2: Diddy's Kong Quest;COMPLETE En cola
 Random en cola
+
+ ** 2020-07-30 ** 
+Jobs:
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6694430>, 'OST;Splatoon;Splatoon 2;BEST') (last run: [never], next run: 2020-07-31 09:00:00)
+Every 1 day at 10:30:38 do setRandom(<mpd.base.MPDClient object at 0xb6694430>) (last run: [never], next run: 2020-07-31 10:30:38)
+Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6694430>, 'OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE') (last run: [never], next run: 2020-07-31 15:00:00)
+Every 1 day at 15:47:54 do setRandom(<mpd.base.MPDClient object at 0xb6694430>) (last run: [never], next run: 2020-07-31 15:47:54)
+Every 1 day at 17:30:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6694430>, "OST;Donkey Kong Country;Donkey Kong Country 2: Diddy's Kong Quest;COMPLETE") (last run: [never], next run: 2020-07-31 17:30:00)
+Every 1 day at 18:42:38 do setRandom(<mpd.base.MPDClient object at 0xb6694430>) (last run: [never], next run: 2020-07-31 18:42:38)
+
+ ** 2020-07-31 ** 
+Jobs:
+Every 1 day at 05:00:00 do loadDay() (last run: [never], next run: 2020-07-31 05:00:00)
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6694430>, 'OST;Donkey Kong Country;Donkey Kong Country;COMPLETE') (last run: [never], next run: 2020-07-31 09:00:00)
+Every 1 day at 10:03:44 do setRandom(<mpd.base.MPDClient object at 0xb6694430>) (last run: [never], next run: 2020-07-31 10:03:44)
+Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6694430>, 'OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE') (last run: [never], next run: 2020-07-31 15:00:00)
+Every 1 day at 15:47:54 do setRandom(<mpd.base.MPDClient object at 0xb6694430>) (last run: [never], next run: 2020-07-31 15:47:54)
+Every 1 day at 17:30:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6694430>, 'OST;Persona;Persona 3 Burn My Dread - Reincarnition;COMPLETE') (last run: [never], next run: 2020-07-31 17:30:00)
+Every 1 day at 18:31:34 do setRandom(<mpd.base.MPDClient object at 0xb6694430>) (last run: [never], next run: 2020-07-31 18:31:34)
+Playlist: OST;Donkey Kong Country;Donkey Kong Country;COMPLETE En cola
+Random en cola
+Playlist: OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE En cola
+Random en cola
+Playlist: OST;Persona;Persona 3 Burn My Dread - Reincarnition;COMPLETE En cola
+Random en cola

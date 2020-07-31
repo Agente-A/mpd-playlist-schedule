@@ -8,6 +8,7 @@ log = '/home/pi/scripts/radio/act_log.txt'
 def setPlaylist(mpd, playlist):
     mpd.connect(mpdServer,mpdPort)
     mpd.clear()
+    mpd.random(0)
     mpd.load(playlist)
     mpd.play()
     mpd.disconnect()
@@ -18,8 +19,8 @@ def setPlaylist(mpd, playlist):
 def setRandom(mpd):
     mpd.connect(mpdServer,mpdPort)
     mpd.clear()
-    mpd.shuffle()
     mpd.add('VGM')
+    mpd.shuffle()
     mpd.play()
     mpd.disconnect()
     f = open(log, "a")
