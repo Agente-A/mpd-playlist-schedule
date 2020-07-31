@@ -62,3 +62,21 @@ Every 1 day at 17:30:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66e1430>
 Every 1 day at 19:24:41 do setRandom(<mpd.base.MPDClient object at 0xb66e1430>) (last run: [never], next run: 2020-07-29 19:24:41)
 Playlist: OST;Donkey Kong Country;Donkey Kong Country;COMPLETE En cola
 Random en cola
+Playlist: OST;Bayonetta;Bayonetta;BEST En cola
+Random en cola
+
+ ** 2020-07-30 ** 
+Jobs:
+Every 1 day at 05:00:00 do loadDay() (last run: [never], next run: 2020-07-30 05:00:00)
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66e1430>, 'OST;Splatoon;Splatoon 2;BEST') (last run: [never], next run: 2020-07-30 09:00:00)
+Every 1 day at 10:30:38 do setRandom(<mpd.base.MPDClient object at 0xb66e1430>) (last run: [never], next run: 2020-07-30 10:30:38)
+Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66e1430>, 'OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE') (last run: [never], next run: 2020-07-30 15:00:00)
+Every 1 day at 15:47:54 do setRandom(<mpd.base.MPDClient object at 0xb66e1430>) (last run: [never], next run: 2020-07-30 15:47:54)
+Every 1 day at 17:30:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66e1430>, "OST;Donkey Kong Country;Donkey Kong Country 2: Diddy's Kong Quest;COMPLETE") (last run: [never], next run: 2020-07-30 17:30:00)
+Every 1 day at 18:42:38 do setRandom(<mpd.base.MPDClient object at 0xb66e1430>) (last run: [never], next run: 2020-07-30 18:42:38)
+Playlist: OST;Splatoon;Splatoon 2;BEST En cola
+Random en cola
+Playlist: OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE En cola
+Random en cola
+Playlist: OST;Donkey Kong Country;Donkey Kong Country 2: Diddy's Kong Quest;COMPLETE En cola
+Random en cola
