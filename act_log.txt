@@ -105,3 +105,23 @@ Playlist: OST;Kirby;Kirby Kightmare In Dreamland;COMPLETE En cola
 Random en cola
 Playlist: OST;Persona;Persona 3 Burn My Dread - Reincarnition;COMPLETE En cola
 Random en cola
+
+ ** 2020-08-01 ** 
+Jobs:
+Every 1 day at 04:15:00 do setPlaylist(<mpd.base.MPDClient object at 0xb656fcb0>, 0) (last run: [never], next run: 2020-08-01 04:15:00)
+Every 1 day at 04:17:03 do setRandom(<mpd.base.MPDClient object at 0xb656fcb0>) (last run: [never], next run: 2020-08-01 04:17:03)
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb656fcb0>, 1) (last run: [never], next run: 2020-08-01 09:00:00)
+Every 1 day at 10:03:44 do setRandom(<mpd.base.MPDClient object at 0xb656fcb0>) (last run: [never], next run: 2020-08-01 10:03:44)
+Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb656fcb0>, 2) (last run: [never], next run: 2020-08-01 15:00:00)
+Every 1 day at 16:12:38 do setRandom(<mpd.base.MPDClient object at 0xb656fcb0>) (last run: [never], next run: 2020-08-01 16:12:38)
+Playlist: OST;Kirby;Kirby Squeak Squad;COMPLETE En cola
+Random en cola
+
+ ** 2020-08-01 ** 
+Jobs:
+Every 1 day at 04:20:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6529c50>, 0) (last run: [never], next run: 2020-08-01 04:20:00)
+Every 1 day at 04:22:31 do setRandom(<mpd.base.MPDClient object at 0xb6529c50>) (last run: [never], next run: 2020-08-01 04:22:31)
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6529c50>, 1) (last run: [never], next run: 2020-08-01 09:00:00)
+Every 1 day at 10:03:44 do setRandom(<mpd.base.MPDClient object at 0xb6529c50>) (last run: [never], next run: 2020-08-01 10:03:44)
+Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6529c50>, 2) (last run: [never], next run: 2020-08-01 15:00:00)
+Every 1 day at 16:12:38 do setRandom(<mpd.base.MPDClient object at 0xb6529c50>) (last run: [never], next run: 2020-08-01 16:12:38)

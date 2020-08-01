@@ -65,22 +65,23 @@ for i in range(7):
             
         for j in range(len(horario['Weekdays'])): 
             hour = horario['Weekdays'][j]
-            aux[j]['horario'] = str(datetime.time(hour['hora'], hour['minuto'])) 
-        
+            aux[j]['Horario'] = str(datetime.time(hour['hora'], hour['minuto'])) 
+            aux[j]['Enable']  = True
         programacion[week[i]] = aux.copy()
     else:
         # día libre, especial de una saga
         # Utilizar una sola saga (2 o más si no hay más playlist disponibles)
         totalPlaylists = len(horario['Holidays'])
         aux = []
-        while len(aux) < totalPlaylists:
+        while len(aux) <= totalPlaylists:
             selectedSaga = random.choice(list(sagas))
             selectedPl = random.sample(sagas[selectedSaga], totalPlaylists if len(sagas[selectedSaga]) >= totalPlaylists else len(sagas[selectedSaga])).copy()
             aux.extend(selectedPl)
+            totalPlaylists -= len(aux)
         for j in range(len(horario['Holidays'])): 
             hour = horario['Holidays'][j]
-            aux[j]['horario'] = str(datetime.time(hour['hora'], hour['minuto'])) 
-            
+            aux[j]['Horario'] = str(datetime.time(hour['hora'], hour['minuto'])) 
+            aux[j]['Enable']  = True
         programacion[week[i]] = aux.copy()
         
 with open('programacion.json', 'w') as file:
