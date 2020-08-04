@@ -12,26 +12,24 @@ def setPlaylist(mpd, i):
     today = prog[list(prog)[day.weekday()]]
     if today[i]['Enable']:
         mpd.connect(mpdServer,mpdPort)
-        mpd.clear()
+        
+        s = int(mpd.currentsong()['pos'])
+        mpd.delete((s+1,))
+        mpd.delete((0,s))
+
         mpd.random(0)
         mpd.load(today[i]['Playlist'])
         mpd.play()
+        total = len(mpd.playlist())
+
+        mpd.add('VGM')
+        mpd.shuffle((total,))
         mpd.disconnect()
+
         f = open(log, "a")
         f.write("Playlist: " + today[i]['Playlist'] + " En cola\n")
         f.close()
 
-def setRandom(mpd):
-    mpd.connect(mpdServer,mpdPort)
-    if len(mpd.playlist()) < 1000:
-        mpd.clear()
-        mpd.add('VGM')
-        mpd.shuffle()
-        mpd.play()
-        mpd.disconnect()
-        f = open(log, "a")
-        f.write("Random en cola\n")
-        f.close()
         
 
 def loadDay():
@@ -44,12 +42,7 @@ def loadDay():
     for i, pl in enumerate(playlists):
         # Recuperar Horario de playlist y convertirlo en objeto datetime
         horario = datetime.datetime.strptime(pl['Horario'], "%H:%M:%S")
-        # Recuperar duracion y convertirlo en objeto datetime
-        duracion = datetime.datetime.strptime(pl['Duracion'], "%H:%M:%S")
-        fin = horario + datetime.timedelta(hours = int(duracion.strftime("%H")), minutes = int(duracion.strftime("%M")), seconds = int(duracion.strftime("%S")))
-
         schedule.every().day.at(horario.strftime("%H:%M:%S")).do(setPlaylist, mpd, i).tag('playlist')
-        schedule.every().day.at(fin.strftime("%H:%M:%S")).do(setRandom, mpd).tag('playlist')
 
     f = open(log, "a")
     f.write("\n ** "+ datetime.datetime.now().strftime("%Y-%m-%d") + " ** \nJobs:\n")

@@ -73,11 +73,12 @@ for i in range(7):
         # Utilizar una sola saga (2 o más si no hay más playlist disponibles)
         totalPlaylists = len(horario['Holidays'])
         aux = []
-        while len(aux) <= totalPlaylists:
+        x = totalPlaylists
+        while len(aux) < totalPlaylists:
             selectedSaga = random.choice(list(sagas))
-            selectedPl = random.sample(sagas[selectedSaga], totalPlaylists if len(sagas[selectedSaga]) >= totalPlaylists else len(sagas[selectedSaga])).copy()
+            selectedPl = random.sample(sagas[selectedSaga], x if len(sagas[selectedSaga]) >= x else len(sagas[selectedSaga])).copy()
             aux.extend(selectedPl)
-            totalPlaylists -= len(aux)
+            x -= len(selectedPl)
         for j in range(len(horario['Holidays'])): 
             hour = horario['Holidays'][j]
             aux[j]['Horario'] = str(datetime.time(hour['hora'], hour['minuto'])) 

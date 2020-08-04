@@ -125,3 +125,74 @@ Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6529c50>
 Every 1 day at 10:03:44 do setRandom(<mpd.base.MPDClient object at 0xb6529c50>) (last run: [never], next run: 2020-08-01 10:03:44)
 Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6529c50>, 2) (last run: [never], next run: 2020-08-01 15:00:00)
 Every 1 day at 16:12:38 do setRandom(<mpd.base.MPDClient object at 0xb6529c50>) (last run: [never], next run: 2020-08-01 16:12:38)
+
+ ** 2020-08-02 ** 
+Jobs:
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66fe430>, 0) (last run: [never], next run: 2020-08-03 09:00:00)
+Every 1 day at 10:54:41 do setRandom(<mpd.base.MPDClient object at 0xb66fe430>) (last run: [never], next run: 2020-08-03 10:54:41)
+Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66fe430>, 1) (last run: [never], next run: 2020-08-02 15:00:00)
+Every 1 day at 15:57:03 do setRandom(<mpd.base.MPDClient object at 0xb66fe430>) (last run: [never], next run: 2020-08-02 15:57:03)
+Playlist: OST;Kirby;Kirby Squeak Squad;COMPLETE En cola
+Random en cola
+
+ ** 2020-08-03 ** 
+Jobs:
+Every 1 day at 05:00:00 do loadDay() (last run: [never], next run: 2020-08-03 05:00:00)
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66fe430>, 0) (last run: [never], next run: 2020-08-03 09:00:00)
+Every 1 day at 11:56:11 do setRandom(<mpd.base.MPDClient object at 0xb66fe430>) (last run: [never], next run: 2020-08-03 11:56:11)
+Every 1 day at 15:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66fe430>, 1) (last run: [never], next run: 2020-08-03 15:00:00)
+Every 1 day at 16:54:41 do setRandom(<mpd.base.MPDClient object at 0xb66fe430>) (last run: [never], next run: 2020-08-03 16:54:41)
+Every 1 day at 17:30:00 do setPlaylist(<mpd.base.MPDClient object at 0xb66fe430>, 2) (last run: [never], next run: 2020-08-03 17:30:00)
+Every 1 day at 18:27:03 do setRandom(<mpd.base.MPDClient object at 0xb66fe430>) (last run: [never], next run: 2020-08-03 18:27:03)
+Playlist: OST;Hatsune Miku Project Diva;Hatsune Miku Project Diva F 2nd;COMPLETE En cola
+Random en cola
+Playlist: OST;Bayonetta;Bayonetta;BEST En cola
+Random en cola
+Playlist: OST;Kirby;Kirby Squeak Squad;COMPLETE En cola
+Random en cola
+
+ ** 2020-08-03 ** 
+Jobs:
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6603c50>, 0) (last run: [never], next run: 2020-08-04 09:00:00)
+Every 1 day at 16:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6603c50>, 1) (last run: [never], next run: 2020-08-04 16:00:00)
+Every 1 day at 18:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6603c50>, 2) (last run: [never], next run: 2020-08-04 18:00:00)
+Every 1 day at 20:50:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6603c50>, 3) (last run: [never], next run: 2020-08-03 20:50:00)
+
+ ** 2020-08-03 ** 
+Jobs:
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6544bf0>, 0) (last run: [never], next run: 2020-08-04 09:00:00)
+Every 1 day at 16:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6544bf0>, 1) (last run: [never], next run: 2020-08-04 16:00:00)
+Every 1 day at 18:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6544bf0>, 2) (last run: [never], next run: 2020-08-04 18:00:00)
+Every 1 day at 20:58:00 do setPlaylist(<mpd.base.MPDClient object at 0xb6544bf0>, 3) (last run: [never], next run: 2020-08-03 20:58:00)
+Playlist: OST;Kirby;Kirby Squeak Squad;COMPLETE En cola
+
+ ** 2020-08-03 ** 
+Jobs:
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65f1c70>, 0) (last run: [never], next run: 2020-08-04 09:00:00)
+Every 1 day at 16:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65f1c70>, 1) (last run: [never], next run: 2020-08-04 16:00:00)
+Every 1 day at 18:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65f1c70>, 2) (last run: [never], next run: 2020-08-04 18:00:00)
+Every 1 day at 21:01:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65f1c70>, 3) (last run: [never], next run: 2020-08-03 21:01:00)
+
+ ** 2020-08-03 ** 
+Jobs:
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65d7c30>, 0) (last run: [never], next run: 2020-08-04 09:00:00)
+Every 1 day at 16:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65d7c30>, 1) (last run: [never], next run: 2020-08-04 16:00:00)
+Every 1 day at 18:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65d7c30>, 2) (last run: [never], next run: 2020-08-04 18:00:00)
+Every 1 day at 21:01:00 do setPlaylist(<mpd.base.MPDClient object at 0xb65d7c30>, 3) (last run: [never], next run: 2020-08-03 21:01:00)
+Playlist: OST;Hatsune Miku Project Diva;Hatsune Miku Project Diva F 2nd;COMPLETE En cola
+
+ ** 2020-08-03 ** 
+Jobs:
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb667f430>, 0) (last run: [never], next run: 2020-08-04 09:00:00)
+Every 1 day at 16:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb667f430>, 1) (last run: [never], next run: 2020-08-04 16:00:00)
+Every 1 day at 18:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb667f430>, 2) (last run: [never], next run: 2020-08-04 18:00:00)
+Every 1 day at 21:01:00 do setPlaylist(<mpd.base.MPDClient object at 0xb667f430>, 3) (last run: [never], next run: 2020-08-04 21:01:00)
+
+ ** 2020-08-04 ** 
+Jobs:
+Every 1 day at 05:00:00 do loadDay() (last run: [never], next run: 2020-08-04 05:00:00)
+Every 1 day at 09:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb667f430>, 0) (last run: [never], next run: 2020-08-04 09:00:00)
+Every 1 day at 16:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb667f430>, 1) (last run: [never], next run: 2020-08-04 16:00:00)
+Every 1 day at 18:00:00 do setPlaylist(<mpd.base.MPDClient object at 0xb667f430>, 2) (last run: [never], next run: 2020-08-04 18:00:00)
+Playlist: OST;Hatsune Miku Project Diva;Hatsune Miku Project Diva F 2nd;COMPLETE En cola
+Playlist: OST;Mega Man;Mega Man 2;COMPLETE En cola

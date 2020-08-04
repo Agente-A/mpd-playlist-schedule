@@ -5,12 +5,12 @@
             "minuto"    :   0
         },
         {
-            "hora"      :   15,
+            "hora"      :   16,
             "minuto"    :   0
         },
         {
-            "hora"      :   17,
-            "minuto"    :   30
+            "hora"      :   18,
+            "minuto"    :   0
         }
     ],
     "Holidays" : [
@@ -19,7 +19,11 @@
             "minuto"    :   0
         },
         {
-            "hora"      :   15,
+            "hora"      :   16,
+            "minuto"    :   0
+        },
+        {
+            "hora"      :   18,
             "minuto"    :   0
         }
     ]
