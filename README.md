@@ -1,11 +1,11 @@
 # MPD Playlist Scheduler
 
-*(Version en español)[#español]
-  *(Pre Requisitos)[#pre-requisitos]
-  *(Instalación)[#instalación]
-*(Version en english)[#english]
-  *(Requirements)[#requirements]
-  *(Installation)[#installation]
+* [Version en español](#español)
+  * [Pre Requisitos](#pre-requisitos)
+  * [Instalación](#instalación)
+* [English version](#english)
+  * [Requirements](#requirements)
+  * [Installation](#installation)
 
 ## Español
 
@@ -51,7 +51,7 @@ Luego de correr playlistSchedule quedará algo así:
 Cree estos scripts en linux Rasbian con python 3.7.3 
 no ha sido probado en windows o MacOS, pero debería funcionar mientras tengas python3
 
-Primero deberás instalar las dependencias utilizadas: `pip install -r dependences.txt`. Esto instalará: (python-mpd2)[https://python-mpd2.readthedocs.io/en/latest/], (holidays)[https://github.com/dr-prodigy/python-holidays], (schedule)[https://schedule.readthedocs.io/en/stable/] y (python-dotenv)[https://github.com/theskumar/python-dotenv]. Lee sus documentaciones para más detalles.
+Primero deberás instalar las dependencias utilizadas: `pip install -r dependences.txt`. Esto instalará: [python-mpd2](https://python-mpd2.readthedocs.io/en/latest/), [holidays](https://github.com/dr-prodigy/python-holidays), [schedule](https://schedule.readthedocs.io/en/stable/) y [python-dotenv](https://github.com/theskumar/python-dotenv). Lee sus documentaciones para más detalles.
 
 Si gustas puedes cambiar el nombre de los archivos JSON que están en el inicio de cada script o dejarlos así, ya que puedes acceder a ellos desde otras aplicaciones para realizar otras acciones.
 
@@ -67,6 +67,7 @@ Luego debes programar estos script en CRON o una herramienta similar:
 >Recomiendo crear un shell script que ejecute estos python script, te ahorrará un montón de problemas con CRON (créeme). Dejaré unos ejemplos.
 
 playlistSchedule debes correrlo una vez a la semana para que realize la planeación.
+
 actualizar corre en un loop infinito que revisa la programación constantemente, por lo que solo debes correrlo una vez cada vez que el sistema se inicie.
 
 ## English
@@ -113,7 +114,7 @@ After run playlistSchedule you will get something like:
 This scripts was made in linux Rasbian with python 3.7.3
 there aren't tested in windows or MacOs, but it has to work if you have python3
 
-First install the dependencies: `pip install -r dependences.txt`. Esto instalará: (python-mpd2)[https://python-mpd2.readthedocs.io/en/latest/], (holidays)[https://github.com/dr-prodigy/python-holidays], (schedule)[https://schedule.readthedocs.io/en/stable/] y (python-dotenv)[https://github.com/theskumar/python-dotenv]. Read the their documentation for more details.
+First install the dependencies: `pip install -r dependences.txt`. Esto instalará: [python-mpd2](https://python-mpd2.readthedocs.io/en/latest/), [holidays](https://github.com/dr-prodigy/python-holidays), [schedule](https://schedule.readthedocs.io/en/stable/) y [python-dotenv](https://github.com/theskumar/python-dotenv). Read the their documentation for more details.
 
 If you want you can change the name of the JSON Files (they are in the beginning of the scripts) or leave it, so you can access them form other applications to do other actions.
 
