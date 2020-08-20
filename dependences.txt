@@ -1,3 +1,4 @@
 python-mpd2
 holidays
 schedule
+python-dotenv
