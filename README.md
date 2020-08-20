@@ -56,6 +56,7 @@ Primero deberás instalar las dependencias utilizadas: `pip install -r dependenc
 Si gustas puedes cambiar el nombre de los archivos JSON que están en el inicio de cada script o dejarlos así, ya que puedes acceder a ellos desde otras aplicaciones para realizar otras acciones.
 
 Algo que **debes** cambiar es la variable `local_holidays` de acuerdo a donde vives para obtener los días libres correctamente.
+Además, si el servidor MPD está en otro computador debes cambiar la configuración en el archivo **.env**.
 
 Luego debes programar estos script en CRON o una herramienta similar:
 
@@ -119,6 +120,7 @@ First install the dependencies: `pip install -r dependences.txt`. Esto instalar�
 If you want you can change the name of the JSON Files (they are in the beginning of the scripts) or leave it, so you can access them form other applications to do other actions.
 
 Something you **need** to change is the variable `local_holidays` according of where you live, so you can get the proper holidays.
+If you have the MPD Server on another computer, you need to change the information in the **.env** file.
 
 Then you have to schedule this scripts with CRON or something similar:
 
