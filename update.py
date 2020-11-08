@@ -11,7 +11,8 @@ mpdPort = os.getenv('MPD_PORT')
 # This Variables depend on your configurations.
 # You can leave them as this but you need to change musicDir if you have it in another location
 
-musicDir = 'VGM'                    # The MPD directory for random music.
+musicDir = None                    # The MPD directory for random music. only one is needed.
+randomPlaylist = 'Z;Random;VGM'     # The MPD PLaylist for random music. only one is needed.
 log = f'{os.getcwd()}/act_log.txt'  # Where you want to log the information.
 scheduleJson = 'programacion.json'  # The name of the file where the schedule will be read."
 
@@ -48,7 +49,7 @@ def setPlaylist(mpd, i):
         
         # Shuffle all the songs after playlist
         total = len(mpd.playlist())
-        mpd.add(musicDir)
+        mpd.add(musicDir) if musicDir else mpd.load(randomPlaylist)
         mpd.shuffle((total,))
 
         # Disconnect and log
